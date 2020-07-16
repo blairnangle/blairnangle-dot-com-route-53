@@ -1,0 +1,13 @@
+# IntelliJ
+.idea
+
+# Terraform
+.terraform
+plan
+
+# git-secret
+.gitsecret/keys/random_seed
+!*.secret
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
